@@ -4,7 +4,7 @@ import HeroMobileBg from "../../../assets/HeroMobile.png";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center font-['Inter'] pb-16 md:pb-0 overflow-hidden bg-gray-900">
+    <div className="relative flex items-center justify-center font-['Inter'] pb-10 md:pb-0 overflow-hidden bg-gray-900">
       {/* Background Images */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
