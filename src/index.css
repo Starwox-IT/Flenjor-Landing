@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@theme{
+  --font-primary: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
