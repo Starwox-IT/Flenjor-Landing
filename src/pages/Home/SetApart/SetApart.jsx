@@ -55,10 +55,10 @@ const SetApart = () => {
                     <p className="text-[#dd6639] font-semibold tracking-wider uppercase text-sm mb-3">
                         Why Choose Us
                     </p>
-                    <h2 className="text-4xl md:text-4xl font-semibold text-gray-900 mb-5 font-['Poppins']">
+                    <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3 font-['Poppins']">
                         What Sets Us Apart
                     </h2>
-                    <p className="text-gray-600 text-[17px] leading-relaxed max-w-2xl mx-auto">
+                    <p className="text-gray-600 text-[15px] leading-relaxed max-w-2xl mx-auto">
                         More than just a store, we're your partner in authentic African culinary experiences
                     </p>
                 </div>
@@ -68,7 +68,7 @@ const SetApart = () => {
                     {pillars.map((pillar) => (
                         <div
                             key={pillar.id}
-                            className="bg-white rounded-xl p-6 flex flex-row items-start gap-5 shadow-[0_2px_12px_rgba(0,0,0,0.04)] border border-gray-100"
+                            className="bg-white rounded-xl p-6 flex flex-row items-start gap-5 shadow-[0_2px_12px_rgba(0,0,0,0.04)] border border-[#E5E3E3]"
                         >
                             {/* Icon */}
                             <img src={pillar.icon} alt={pillar.title} className="w-10 h-10 object-contain flex-shrink-0 mt-0.5" />

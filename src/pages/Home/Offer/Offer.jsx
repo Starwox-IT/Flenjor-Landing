@@ -49,7 +49,7 @@ const Offer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Section Header */}
-                <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="text-center max-w-3xl mx-auto mb-8">
                     <p className="text-[#569b5e] font-semibold tracking-wider uppercase text-sm mb-3">
                         Our Services
                     </p>

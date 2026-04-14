@@ -19,19 +19,19 @@ const PowerBusiness = () => {
                     {/* Left: Text Content - (Order 2 on mobile, 1 on desktop) */}
                     <div className="w-full lg:w-1/2 order-2 lg:order-1 flex flex-col items-center lg:items-start text-center lg:text-left">
                         {/* Pill Badge */}
-                        <div className="inline-block px-5 py-2 rounded-full border border-[#569b5e] bg-[#f0f7f1] mb-6">
+                        <div className="inline-block px-5 py-2 rounded-full border border-[#569b5e] bg-[#f0f7f1] mb-3">
                             <span className="text-[#3b6b41] text-xs font-semibold tracking-wider uppercase">
                                 For Business
                             </span>
                         </div>
 
                         {/* Title */}
-                        <h2 className="text-4xl md:text-4xl font-semibold text-gray-900 mb-6 leading-tight font-['Poppins']">
+                        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3 leading-tight font-['Poppins']">
                             Power Your Business with Authentic Ingredients
                         </h2>
 
                         {/* Description */}
-                        <p className="text-gray-700 text-[17px] mb-10 w-full">
+                        <p className="text-gray-700 text-[15px] mb-10 w-full">
                             Wholesale solutions for restaurants, retailers, caterers, and food service providers.
                         </p>
 

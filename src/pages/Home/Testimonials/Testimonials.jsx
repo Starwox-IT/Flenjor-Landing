@@ -46,7 +46,7 @@ const Testimonials = () => {
                     <h2 className="text-4xl md:text-4xl font-semibold text-gray-900 mb-6 font-['Poppins']">
                         Voices from Our Community
                     </h2>
-                    <p className="text-gray-600 text-[15px] font-medium leading-relaxed max-w-[80%] md:w-[60%] mx-auto">
+                    <p className="text-gray-600 text-[14px] font-medium leading-relaxed max-w-[100%] md:max-w-[60%] mx-auto">
                         Hear what our customers and partners have to say about their Flenjor experience
                     </p>
                 </div>
@@ -105,7 +105,7 @@ const Testimonials = () => {
                                     </div>
 
                                     {/* Testimonial Text */}
-                                    <p className="text-gray-800 text-base md:text-[16px] leading-relaxed mb-6 max-w-[70%] font-normal">
+                                    <p className="text-gray-800 text-[12px] md:text-[15px] leading-relaxed mb-6 max-w-[100%] md:max-w-[70%] font-medium">
                                         "{item.text}"
                                     </p>
 

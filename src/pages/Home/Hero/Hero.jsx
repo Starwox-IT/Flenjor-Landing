@@ -4,13 +4,13 @@ import HeroMobileBg from "../../../assets/HeroMobile.png";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center font-['Inter'] pb-16 md:pb-0 overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center font-['Inter'] pb-16 md:pb-0 overflow-hidden bg-gray-900">
       {/* Background Images */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
         style={{ backgroundImage: `url(${HeroMobileBg})` }}
       />
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
         style={{ backgroundImage: `url(${HeroBg})` }}
       />
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-semibold text-white mb-2 leading-tight font-['Poppins']">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-semibold text-white mb-2 leading-tight font-['Poppins']">
           Where African Flavor
           <br />
           Meets Modern
