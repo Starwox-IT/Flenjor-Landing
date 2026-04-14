@@ -1,0 +1,12 @@
+[build]
+  # This command builds your Vite app
+  command = "npm run build"
+  # This is the directory Vite builds to by default
+  publish = "dist"
+
+[[redirects]]
+  # This rule ensures that all your react-router routes work perfectly on refresh
+  # by routing every path back to index.html to let React Router handle it
+  from = "/*"
+  to = "/index.html"
+  status = 200
