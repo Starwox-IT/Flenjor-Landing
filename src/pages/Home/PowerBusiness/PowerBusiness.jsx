@@ -50,13 +50,17 @@ const PowerBusiness = () => {
 
                         {/* Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                            <button className="w-full sm:w-auto px-8 py-3.5 rounded-md text-white font-medium bg-[#569b5e] hover:bg-[#437d49] transition-colors shadow-sm">
-                                <span className="hidden sm:inline">Request Wholesale Quote</span>
-                                <span className="inline sm:hidden">View Pricing & Book Now</span>
-                            </button>
-                            <button className="w-full sm:w-auto px-8 py-3.5 rounded-md text-[#569b5e] font-medium border border-[#569b5e] hover:bg-gray-50 transition-colors">
-                                Contact Us
-                            </button>
+                            <a href="https://flenjor-foods.netlify.app/pricing-booking" target="_blank" rel="noopener noreferrer">
+                                <button className="w-full cursor-pointer sm:w-auto px-8 py-3.5 rounded-md text-white font-medium bg-[#569b5e] hover:bg-[#437d49] transition-colors shadow-sm">
+                                    <span className="hidden sm:inline">Request Wholesale Quote</span>
+                                    <span className="inline sm:hidden">View Pricing & Book Now</span>
+                                </button>
+                            </a>
+                            <a href="https://flenjor-foods.netlify.app/contact" target="_blank" rel="noopener noreferrer">
+                                <button className="w-full cursor-pointer sm:w-auto px-8 py-3.5 rounded-md text-[#569b5e] font-medium border border-[#569b5e] hover:bg-gray-50 transition-colors">
+                                    Contact Us
+                                </button>
+                            </a>
                         </div>
                     </div>
 

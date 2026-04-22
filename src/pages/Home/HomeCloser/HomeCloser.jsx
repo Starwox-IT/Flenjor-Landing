@@ -89,9 +89,11 @@ const HomeCloser = () => {
                         </div>
 
                         {/* CTA Button */}
-                        <button className="px-8 py-3 rounded-md border-2 border-[#569b5e] text-[#569b5e] font-medium hover:bg-[#569b5e] hover:text-white transition-colors duration-300">
-                            Learn More About Us
-                        </button>
+                        <a href="https://flenjor-foods.netlify.app/about" target="_blank" rel="noopener noreferrer">
+                            <button className="px-8 cursor-pointer py-3 rounded-md border-2 border-[#569b5e] text-[#569b5e] font-medium hover:bg-[#569b5e] hover:text-white transition-colors duration-300">
+                                Learn More About Us
+                            </button>
+                        </a>
                     </div>
 
                 </div>

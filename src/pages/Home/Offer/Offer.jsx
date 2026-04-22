@@ -11,7 +11,7 @@ const Offer = () => {
             title: "Authentic African Groceries",
             description: "Premium spices, grains, sauces, and fresh produce from across the continent.",
             linkText: "Shop now",
-            linkUrl: "/shop",
+            linkUrl: "https://www.flenjorfoods.com/s1/home",
             icon: Offerauthentic,
             bgColor: "bg-[#35533e]" // Dark Green
         },
@@ -20,7 +20,7 @@ const Offer = () => {
             title: "Kitchen Rentals",
             description: "Fully equipped, certified commercial kitchen space for food entrepreneurs and businesses.",
             linkText: "Book Space",
-            linkUrl: "/kitchen",
+            linkUrl: "https://flenjor-foods.netlify.app/pricing-booking",
             icon: Offerkithen,
             bgColor: "bg-[#da643f]" // Orange
         },
@@ -85,6 +85,8 @@ const Offer = () => {
                             {/* Action Link */}
                             <a
                                 href={offer.linkUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center text-white font-semibold hover:text-gray-200 transition-colors group mt-auto"
                             >
                                 {offer.linkText}

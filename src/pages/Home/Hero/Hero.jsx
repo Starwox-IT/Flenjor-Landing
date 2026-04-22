@@ -4,7 +4,7 @@ import HeroMobileBg from "../../../assets/HeroMobile.png";
 
 const Hero = () => {
   return (
-    <div className="relative flex items-center justify-center font-['Inter'] pb-10 md:pb-0 overflow-hidden bg-gray-900">
+    <div className="relative flex items-center justify-center font-['Inter'] pb-10 md:pb-15 md:pt-15 overflow-hidden bg-gray-900">
       {/* Background Images */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
@@ -41,12 +41,16 @@ const Hero = () => {
 
         {/* Call to Action Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
-          <button className="w-full sm:w-auto px-8 py-2 rounded-md text-white font-medium bg-[#569b5e] hover:bg-[#437d49] transition-colors shadow-lg">
-            Shop from our store
-          </button>
-          <button className="w-full sm:w-auto px-8 py-2 rounded-md text-[#569b5e] font-medium bg-white hover:bg-gray-100 transition-colors shadow-lg">
-            Explore our services
-          </button>
+          <a href="https://www.flenjorfoods.com/s1/home" target="_blank" rel="noopener noreferrer ">
+            <button className="w-full cursor-pointer sm:w-auto px-8 py-2 rounded-md text-white font-medium bg-[#569b5e] hover:bg-[#437d49] transition-colors shadow-lg">
+              Shop from our store
+            </button>
+          </a>
+          <a href="https://www.flenjorfoods.com/s1/services" target="_blank" rel="noopener noreferrer">
+            <button className="w-full sm:w-auto px-8 cursor-pointer py-2 rounded-md text-[#569b5e] font-medium bg-white hover:bg-gray-100 transition-colors shadow-lg">
+              Explore our services
+            </button>
+          </a>
         </div>
       </div>
     </div>
