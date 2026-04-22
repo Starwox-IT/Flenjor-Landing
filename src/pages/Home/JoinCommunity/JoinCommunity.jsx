@@ -28,7 +28,7 @@ const JoinCommunity = () => {
         {/* Call to Action Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full max-w-sm sm:max-w-md mx-auto">
           <a
-            href="https://flenjor-foods.netlify.app/shop"
+            href="https://www.flenjorfoods.com/s1/home"
             target="_blank"
             rel="noopener noreferrer"
             className="full w-full sm:w-auto"
