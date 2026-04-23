@@ -29,7 +29,7 @@ const Offer = () => {
             title: "Fresh Bakery",
             description: "Traditional and fusion baked goods made daily with authentic recipes and quality ingredients.",
             linkText: "View Menu",
-            linkUrl: "/menu",
+            linkUrl: "https://flenjor-foods.netlify.app/the-kitchen/#bakery",
             icon: Offerbakery,
             bgColor: "bg-[#794936]" // Brown
         },
